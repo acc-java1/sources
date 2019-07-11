@@ -35,7 +35,7 @@ Next, on both platforms you will change directories up and over to bin for testi
 
 cd ../bin
 
-From the bi directory, run your main class with:
+From the bin directory, run your main class with:
 
 java edu.acc.java1.foo.Main
 
