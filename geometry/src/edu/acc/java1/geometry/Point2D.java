@@ -291,7 +291,7 @@ public class Point2D {
 	}
 
 	public static double distance(int x1, int y1, int x2, int y2) {
-		return distance(new Point2D(xy1, y1), new Point2D(x2, y2));
+		return distance(new Point2D(x1, y1), new Point2D(x2, y2));
 	}
 
     @Override
