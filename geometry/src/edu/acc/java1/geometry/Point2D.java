@@ -5,7 +5,7 @@ package edu.acc.java1.geometry;
 	many times. Any one version should compile fine however. Comment
 	out all but the last version to use with Main.java.
 */
-
+/*
 // the bare minimum point
 public class Point2D {
 	int x;
@@ -256,7 +256,7 @@ public class Point2D {
         return String.format("(%d,%d)", x, y);
     }
 }
-
+*/
 // add a service to calculate distance with only coordinates
 public class Point2D {
     public int x;
