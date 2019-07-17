@@ -33,6 +33,23 @@ public class Main {
 			distanceFromQtoP);
 		System.out.printf("Distance from p to q: %.2f\n", Point2D.distance(p, q));
 		System.out.printf("Distance from (2,2) to (-2,-2): %.2f\n", Point2D.distance(2, 2, -2, -2));
+
+		// Using Point3D
+		Point3D g = new Point3D();
+		Point3D h = new Point3D(-1, 3, 402);
+		Point3D j = new Point3D(h);
+
+		g.translate(-1, -1, -1);
+		System.out.println(g);
+		h.move(j.x -4, j.y * 2, -j.z);
+		System.out.println(h);
+		g = h = j = null; // how many Point3Ds are eligible for garbage collection here?
+
+		CircleA c = new CircleA(p, 5);
+		CircleB d = new CircleB(q, -10);
+
+		System.out.println(c.getCircumference());
+		System.out.println(d.getArea());
 	}
 }
 
