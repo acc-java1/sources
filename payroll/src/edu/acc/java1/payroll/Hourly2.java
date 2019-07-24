@@ -8,10 +8,12 @@ public class Hourly2 extends Employee {
 		this.wage = wage;
 		this.hours = hours;
 	}
+
 	@Override
 	public double getPay() {
 		double pay = wage * hours;
 		if (hours > 40) pay += .5 * wage * (hours - 40);
 		return pay;
 	}
+
 }

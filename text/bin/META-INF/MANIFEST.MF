@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 12.0.1 (Oracle Corporation)
+Main-Class: edu.acc.java1.text.Main
+
