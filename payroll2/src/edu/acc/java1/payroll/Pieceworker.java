@@ -4,10 +4,10 @@ public class Pieceworker extends Hourly {
 	private double pieceRate;
 	private int pieces;
 	
-	public Pieceworker(String firstName, String lastName, int id,
-			double wage, double hours, double pieceRate,
-			int pieces) {
-		super(firstName, lastName, id, wage, hours);
+	public Pieceworker(String firstName, String lastName,
+			String title, int id, double wage, double hours,
+			double pieceRate, int pieces) {
+		super(firstName, lastName, title, id, wage, hours);
 		this.pieceRate = pieceRate;
 		this.pieces = pieces;
 	}

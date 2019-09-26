@@ -3,8 +3,9 @@ package edu.acc.java1.payroll;
 public class Salaried extends Employee {
 	private double salary;
 	
-	public Salaried(String firstName, String lastName, int id, double salary) {
-		super(firstName, lastName, id);
+	public Salaried(String firstName, String lastName, String title,
+			int id, double salary) {
+		super(firstName, lastName, title, id);
 		this.salary = salary;
 	}
 
